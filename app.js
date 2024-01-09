@@ -1,7 +1,5 @@
-window.onload = () => {
-    document.querySelector('#calculate').onclick = calculate;
-    document.querySelector('#reset').onclick = reset;
-}
+document.querySelector('#calculate').onclick = calculate;
+document.querySelector('#reset').onclick = reset;
 
 function calculate () {
     const date = document.querySelector("#date").value;
