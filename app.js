@@ -27,7 +27,7 @@ function calculateTime(endTime) {
     if (endTime > currentTime) {
         const timeLeft = (endTime - currentTime) / 1000;
 
-        console.log(timeLeft);
+        
         days.innerText = Math.floor(timeLeft / (24 * 60 * 60));
         hours.innerText = Math.floor((timeLeft / (60 * 60)) % 24);
         minutes.innerText = Math.floor((timeLeft / 60) % 60);
